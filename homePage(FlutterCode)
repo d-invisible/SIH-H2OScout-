@@ -1,0 +1,877 @@
+Container(
+    width: 360,
+    height: 800,
+    clipBehavior: Clip.antiAlias,
+    decoration: ShapeDecoration(
+        gradient: LinearGradient(
+            begin: Alignment(0.00, -1.00),
+            end: Alignment(0, 1),
+            colors: [Colors.white, Colors.white.withOpacity(0.3499999940395355)],
+        ),
+        shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(30),
+        ),
+    ),
+    child: Stack(
+        children: [
+            Positioned(
+                left: 0,
+                top: 251,
+                child: Container(
+                    width: 360,
+                    height: 549,
+                    decoration: ShapeDecoration(
+                        gradient: LinearGradient(
+                            begin: Alignment(0.00, -1.00),
+                            end: Alignment(0, 1),
+                            colors: [Color(0xFF00FFEF), Color(0x890047FF)],
+                        ),
+                        shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(30),
+                        ),
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 28,
+                top: 294,
+                child: Container(
+                    width: 137,
+                    height: 200,
+                    decoration: ShapeDecoration(
+                        gradient: LinearGradient(
+                            begin: Alignment(0.00, -1.00),
+                            end: Alignment(0, 1),
+                            colors: [Color(0x3AAD00FF), Color(0x448F00D3)],
+                        ),
+                        shape: RoundedRectangleBorder(
+                            side: BorderSide(
+                                width: 0.50,
+                                strokeAlign: BorderSide.strokeAlignOutside,
+                                color: Colors.white,
+                            ),
+                            borderRadius: BorderRadius.circular(25),
+                        ),
+                        shadows: [
+                            BoxShadow(
+                                color: Color(0x3F000000),
+                                blurRadius: 4,
+                                offset: Offset(-4, 4),
+                                spreadRadius: 0,
+                            )
+                        ],
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 192,
+                top: 294,
+                child: Container(
+                    width: 137,
+                    height: 91,
+                    decoration: ShapeDecoration(
+                        color: Colors.white,
+                        shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(25),
+                        ),
+                        shadows: [
+                            BoxShadow(
+                                color: Color(0x3F000000),
+                                blurRadius: 12,
+                                offset: Offset(0, 4),
+                                spreadRadius: 0,
+                            )
+                        ],
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 192,
+                top: 400,
+                child: Container(
+                    width: 137,
+                    height: 40,
+                    decoration: ShapeDecoration(
+                        color: Colors.white,
+                        shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(15),
+                        ),
+                        shadows: [
+                            BoxShadow(
+                                color: Color(0x3F000000),
+                                blurRadius: 12,
+                                offset: Offset(0, 4),
+                                spreadRadius: 0,
+                            )
+                        ],
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 192,
+                top: 454,
+                child: Container(
+                    width: 137,
+                    height: 40,
+                    decoration: ShapeDecoration(
+                        color: Colors.white,
+                        shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(15),
+                        ),
+                        shadows: [
+                            BoxShadow(
+                                color: Color(0x3F000000),
+                                blurRadius: 12,
+                                offset: Offset(0, 4),
+                                spreadRadius: 0,
+                            )
+                        ],
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 71,
+                top: 400,
+                child: Container(
+                    width: 50,
+                    height: 50,
+                    decoration: BoxDecoration(
+                        image: DecorationImage(
+                            image: NetworkImage("https://via.placeholder.com/50x50"),
+                            fit: BoxFit.contain,
+                        ),
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 216,
+                top: 322,
+                child: Container(
+                    width: 35,
+                    height: 35,
+                    decoration: BoxDecoration(
+                        image: DecorationImage(
+                            image: NetworkImage("https://via.placeholder.com/35x35"),
+                            fit: BoxFit.contain,
+                        ),
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 54,
+                top: 340,
+                child: SizedBox(
+                    width: 84,
+                    height: 61,
+                    child: Text(
+                        'ADD\nISSUE',
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 20,
+                            fontFamily: 'Sansation',
+                            fontWeight: FontWeight.w700,
+                        ),
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 238,
+                top: 323,
+                child: SizedBox(
+                    width: 84,
+                    height: 61,
+                    child: Text(
+                        'Check\nStatus',
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                            color: Color(0xFF1E1E1E),
+                            fontSize: 14,
+                            fontFamily: 'Sansation',
+                            fontWeight: FontWeight.w700,
+                        ),
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 208,
+                top: 412,
+                child: SizedBox(
+                    width: 104,
+                    height: 28,
+                    child: Text(
+                        'Following',
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                            color: Color(0xFF1E1E1E),
+                            fontSize: 14,
+                            fontFamily: 'Sansation',
+                            fontWeight: FontWeight.w700,
+                        ),
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 208,
+                top: 465,
+                child: SizedBox(
+                    width: 104,
+                    height: 35,
+                    child: Text(
+                        'Followed',
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                            color: Color(0xFF1E1E1E),
+                            fontSize: 14,
+                            fontFamily: 'Sansation',
+                            fontWeight: FontWeight.w700,
+                        ),
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 28,
+                top: 531,
+                child: SizedBox(
+                    width: 135,
+                    height: 39,
+                    child: Text(
+                        'TOP ISSUES',
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 20,
+                            fontFamily: 'Sansation',
+                            fontWeight: FontWeight.w700,
+                        ),
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 0,
+                top: 743,
+                child: Container(
+                    width: 360,
+                    height: 57,
+                    decoration: BoxDecoration(color: Color(0x7F0047FF)),
+                ),
+            ),
+            Positioned(
+                left: 28,
+                top: 721,
+                child: Container(
+                    width: 71,
+                    height: 71,
+                    decoration: ShapeDecoration(
+                        color: Color(0x7F0047FF),
+                        shape: OvalBorder(),
+                        shadows: [
+                            BoxShadow(
+                                color: Color(0x3FFFFFFF),
+                                blurRadius: 12,
+                                offset: Offset(0, 4),
+                                spreadRadius: 5,
+                            )
+                        ],
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 48,
+                top: 742,
+                child: Container(
+                    width: 30,
+                    height: 30,
+                    decoration: BoxDecoration(
+                        image: DecorationImage(
+                            image: NetworkImage("https://via.placeholder.com/30x30"),
+                            fit: BoxFit.contain,
+                        ),
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 230,
+                top: 757,
+                child: Container(
+                    width: 30,
+                    height: 30,
+                    decoration: BoxDecoration(
+                        image: DecorationImage(
+                            image: NetworkImage("https://via.placeholder.com/30x30"),
+                            fit: BoxFit.contain,
+                        ),
+                        boxShadow: [
+                            BoxShadow(
+                                color: Color(0x7F000000),
+                                blurRadius: 12,
+                                offset: Offset(0, 4),
+                                spreadRadius: 0,
+                            )
+                        ],
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 142,
+                top: 757,
+                child: Container(
+                    width: 30,
+                    height: 30,
+                    decoration: BoxDecoration(
+                        image: DecorationImage(
+                            image: NetworkImage("https://via.placeholder.com/30x30"),
+                            fit: BoxFit.contain,
+                        ),
+                        boxShadow: [
+                            BoxShadow(
+                                color: Color(0x7F000000),
+                                blurRadius: 12,
+                                offset: Offset(0, 4),
+                                spreadRadius: 0,
+                            )
+                        ],
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 305,
+                top: 757,
+                child: Container(
+                    width: 30,
+                    height: 30,
+                    decoration: BoxDecoration(
+                        image: DecorationImage(
+                            image: NetworkImage("https://via.placeholder.com/30x30"),
+                            fit: BoxFit.contain,
+                        ),
+                        boxShadow: [
+                            BoxShadow(
+                                color: Color(0x7F000000),
+                                blurRadius: 12,
+                                offset: Offset(0, 4),
+                                spreadRadius: 0,
+                            )
+                        ],
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 21,
+                top: 569,
+                child: Container(
+                    width: 339,
+                    clipBehavior: Clip.antiAlias,
+                    decoration: BoxDecoration(),
+                    child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                            Container(
+                                width: 246,
+                                height: 151,
+                                child: Stack(
+                                    children: [
+                                        Positioned(
+                                            left: 1,
+                                            top: 0,
+                                            child: Container(
+                                                width: 245,
+                                                height: 140,
+                                                child: Stack(
+                                                    children: [
+                                                        Positioned(
+                                                            left: 0,
+                                                            top: 0,
+                                                            child: Container(
+                                                                width: 245,
+                                                                height: 139,
+                                                                decoration: ShapeDecoration(
+                                                                    image: DecorationImage(
+                                                                        image: NetworkImage("https://via.placeholder.com/245x139"),
+                                                                        fit: BoxFit.fill,
+                                                                    ),
+                                                                    shape: RoundedRectangleBorder(
+                                                                        borderRadius: BorderRadius.circular(25),
+                                                                    ),
+                                                                ),
+                                                            ),
+                                                        ),
+                                                        Positioned(
+                                                            left: 0,
+                                                            top: 0,
+                                                            child: Container(
+                                                                width: 141,
+                                                                height: 140,
+                                                                decoration: ShapeDecoration(
+                                                                    gradient: LinearGradient(
+                                                                        begin: Alignment(1.00, -0.00),
+                                                                        end: Alignment(-1, 0),
+                                                                        colors: [Colors.black, Colors.black.withOpacity(0)],
+                                                                    ),
+                                                                    shape: RoundedRectangleBorder(
+                                                                        borderRadius: BorderRadius.only(
+                                                                            topLeft: Radius.circular(25),
+                                                                            bottomLeft: Radius.circular(25),
+                                                                        ),
+                                                                    ),
+                                                                ),
+                                                            ),
+                                                        ),
+                                                    ],
+                                                ),
+                                            ),
+                                        ),
+                                        Positioned(
+                                            left: 0,
+                                            top: 8,
+                                            child: Container(
+                                                width: 236,
+                                                height: 143,
+                                                child: Stack(
+                                                    children: [
+                                                        Positioned(
+                                                            left: 0,
+                                                            top: 1,
+                                                            child: Container(
+                                                                width: 227,
+                                                                height: 142,
+                                                                child: Stack(
+                                                                    children: [
+                                                                        Positioned(
+                                                                            left: 0,
+                                                                            top: 41,
+                                                                            child: SizedBox(
+                                                                                width: 135,
+                                                                                height: 39,
+                                                                                child: Text(
+                                                                                    'No water\nto village',
+                                                                                    textAlign: TextAlign.center,
+                                                                                    style: TextStyle(
+                                                                                        color: Colors.white,
+                                                                                        fontSize: 20,
+                                                                                        fontFamily: 'Sansation',
+                                                                                        fontWeight: FontWeight.w700,
+                                                                                    ),
+                                                                                ),
+                                                                            ),
+                                                                        ),
+                                                                        Positioned(
+                                                                            left: 21,
+                                                                            top: 95,
+                                                                            child: Container(
+                                                                                width: 206,
+                                                                                height: 47,
+                                                                                child: Stack(
+                                                                                    children: [
+                                                                                        Positioned(
+                                                                                            left: 25,
+                                                                                            top: 8,
+                                                                                            child: SizedBox(
+                                                                                                width: 181,
+                                                                                                height: 39,
+                                                                                                child: Text(
+                                                                                                    'Marathawada, Maharashtra\n',
+                                                                                                    textAlign: TextAlign.center,
+                                                                                                    style: TextStyle(
+                                                                                                        color: Colors.white,
+                                                                                                        fontSize: 14,
+                                                                                                        fontFamily: 'Sansation',
+                                                                                                        fontWeight: FontWeight.w400,
+                                                                                                    ),
+                                                                                                ),
+                                                                                            ),
+                                                                                        ),
+                                                                                        Positioned(
+                                                                                            left: 0,
+                                                                                            top: 0,
+                                                                                            child: Container(
+                                                                                                width: 25,
+                                                                                                height: 25,
+                                                                                                decoration: BoxDecoration(
+                                                                                                    image: DecorationImage(
+                                                                                                        image: NetworkImage("https://via.placeholder.com/25x25"),
+                                                                                                        fit: BoxFit.contain,
+                                                                                                    ),
+                                                                                                ),
+                                                                                            ),
+                                                                                        ),
+                                                                                    ],
+                                                                                ),
+                                                                            ),
+                                                                        ),
+                                                                        Positioned(
+                                                                            left: 22,
+                                                                            top: 0,
+                                                                            child: Container(
+                                                                                width: 61,
+                                                                                height: 20,
+                                                                                child: Stack(
+                                                                                    children: [
+                                                                                        Positioned(
+                                                                                            left: 18,
+                                                                                            top: 2,
+                                                                                            child: SizedBox(
+                                                                                                width: 43,
+                                                                                                height: 18,
+                                                                                                child: Text(
+                                                                                                    '2.1 L',
+                                                                                                    textAlign: TextAlign.center,
+                                                                                                    style: TextStyle(
+                                                                                                        color: Color(0xFF00FFEF),
+                                                                                                        fontSize: 14,
+                                                                                                        fontFamily: 'Sansation',
+                                                                                                        fontWeight: FontWeight.w700,
+                                                                                                    ),
+                                                                                                ),
+                                                                                            ),
+                                                                                        ),
+                                                                                        Positioned(
+                                                                                            left: 0,
+                                                                                            top: 0,
+                                                                                            child: Container(
+                                                                                                width: 20,
+                                                                                                height: 20,
+                                                                                                decoration: BoxDecoration(
+                                                                                                    image: DecorationImage(
+                                                                                                        image: NetworkImage("https://via.placeholder.com/20x20"),
+                                                                                                        fit: BoxFit.contain,
+                                                                                                    ),
+                                                                                                ),
+                                                                                            ),
+                                                                                        ),
+                                                                                    ],
+                                                                                ),
+                                                                            ),
+                                                                        ),
+                                                                    ],
+                                                                ),
+                                                            ),
+                                                        ),
+                                                        Positioned(
+                                                            left: 208,
+                                                            top: 0,
+                                                            child: Container(
+                                                                width: 28,
+                                                                height: 28,
+                                                                decoration: BoxDecoration(
+                                                                    image: DecorationImage(
+                                                                        image: NetworkImage("https://via.placeholder.com/28x28"),
+                                                                        fit: BoxFit.contain,
+                                                                    ),
+                                                                ),
+                                                            ),
+                                                        ),
+                                                    ],
+                                                ),
+                                            ),
+                                        ),
+                                    ],
+                                ),
+                            ),
+                            const SizedBox(width: 16),
+                            Container(
+                                width: 246,
+                                height: 149,
+                                child: Stack(
+                                    children: [
+                                        Positioned(
+                                            left: 0,
+                                            top: 0,
+                                            child: Container(
+                                                width: 246,
+                                                height: 140,
+                                                child: Stack(
+                                                    children: [
+                                                        Positioned(
+                                                            left: 0,
+                                                            top: 0,
+                                                            child: Container(
+                                                                width: 246,
+                                                                height: 140,
+                                                                decoration: ShapeDecoration(
+                                                                    image: DecorationImage(
+                                                                        image: NetworkImage("https://via.placeholder.com/246x140"),
+                                                                        fit: BoxFit.fill,
+                                                                    ),
+                                                                    shape: RoundedRectangleBorder(
+                                                                        borderRadius: BorderRadius.circular(25),
+                                                                    ),
+                                                                ),
+                                                            ),
+                                                        ),
+                                                        Positioned(
+                                                            left: 0,
+                                                            top: 0,
+                                                            child: Container(
+                                                                width: 141,
+                                                                height: 140,
+                                                                decoration: ShapeDecoration(
+                                                                    gradient: LinearGradient(
+                                                                        begin: Alignment(1.00, 0.00),
+                                                                        end: Alignment(-1, 0),
+                                                                        colors: [Color(0xFF000000), Color(0x191F1F1F)],
+                                                                    ),
+                                                                    shape: RoundedRectangleBorder(
+                                                                        borderRadius: BorderRadius.only(
+                                                                            topLeft: Radius.circular(25),
+                                                                            bottomLeft: Radius.circular(25),
+                                                                        ),
+                                                                    ),
+                                                                ),
+                                                            ),
+                                                        ),
+                                                    ],
+                                                ),
+                                            ),
+                                        ),
+                                        Positioned(
+                                            left: 16,
+                                            top: 8,
+                                            child: Container(
+                                                width: 219,
+                                                height: 141,
+                                                child: Stack(
+                                                    children: [
+                                                        Positioned(
+                                                            left: 0,
+                                                            top: 1,
+                                                            child: Container(
+                                                                width: 181,
+                                                                height: 140,
+                                                                child: Stack(
+                                                                    children: [
+                                                                        Positioned(
+                                                                            left: 8,
+                                                                            top: 41,
+                                                                            child: SizedBox(
+                                                                                width: 135,
+                                                                                height: 39,
+                                                                                child: Text(
+                                                                                    'Heavy\nWater Log\n',
+                                                                                    style: TextStyle(
+                                                                                        color: Colors.white,
+                                                                                        fontSize: 20,
+                                                                                        fontFamily: 'Sansation',
+                                                                                        fontWeight: FontWeight.w700,
+                                                                                    ),
+                                                                                ),
+                                                                            ),
+                                                                        ),
+                                                                        Positioned(
+                                                                            left: 0,
+                                                                            top: 95,
+                                                                            child: Container(
+                                                                                width: 181,
+                                                                                height: 45,
+                                                                                child: Stack(
+                                                                                    children: [
+                                                                                        Positioned(
+                                                                                            left: 0,
+                                                                                            top: 6,
+                                                                                            child: SizedBox(
+                                                                                                width: 181,
+                                                                                                height: 39,
+                                                                                                child: Text(
+                                                                                                    'Guindy, Chennai\n',
+                                                                                                    textAlign: TextAlign.center,
+                                                                                                    style: TextStyle(
+                                                                                                        color: Colors.white,
+                                                                                                        fontSize: 14,
+                                                                                                        fontFamily: 'Sansation',
+                                                                                                        fontWeight: FontWeight.w400,
+                                                                                                    ),
+                                                                                                ),
+                                                                                            ),
+                                                                                        ),
+                                                                                        Positioned(
+                                                                                            left: 8,
+                                                                                            top: 0,
+                                                                                            child: Container(
+                                                                                                width: 26,
+                                                                                                height: 26,
+                                                                                                decoration: BoxDecoration(
+                                                                                                    image: DecorationImage(
+                                                                                                        image: NetworkImage("https://via.placeholder.com/26x26"),
+                                                                                                        fit: BoxFit.contain,
+                                                                                                    ),
+                                                                                                ),
+                                                                                            ),
+                                                                                        ),
+                                                                                    ],
+                                                                                ),
+                                                                            ),
+                                                                        ),
+                                                                        Positioned(
+                                                                            left: 5,
+                                                                            top: 0,
+                                                                            child: Container(
+                                                                                width: 61,
+                                                                                height: 20,
+                                                                                child: Stack(
+                                                                                    children: [
+                                                                                        Positioned(
+                                                                                            left: 18,
+                                                                                            top: 2,
+                                                                                            child: SizedBox(
+                                                                                                width: 43,
+                                                                                                height: 18,
+                                                                                                child: Text(
+                                                                                                    '2.1 L',
+                                                                                                    textAlign: TextAlign.center,
+                                                                                                    style: TextStyle(
+                                                                                                        color: Color(0xFF00FFEF),
+                                                                                                        fontSize: 14,
+                                                                                                        fontFamily: 'Sansation',
+                                                                                                        fontWeight: FontWeight.w700,
+                                                                                                    ),
+                                                                                                ),
+                                                                                            ),
+                                                                                        ),
+                                                                                        Positioned(
+                                                                                            left: 0,
+                                                                                            top: 0,
+                                                                                            child: Container(
+                                                                                                width: 20,
+                                                                                                height: 20,
+                                                                                                decoration: BoxDecoration(
+                                                                                                    image: DecorationImage(
+                                                                                                        image: NetworkImage("https://via.placeholder.com/20x20"),
+                                                                                                        fit: BoxFit.contain,
+                                                                                                    ),
+                                                                                                ),
+                                                                                            ),
+                                                                                        ),
+                                                                                    ],
+                                                                                ),
+                                                                            ),
+                                                                        ),
+                                                                    ],
+                                                                ),
+                                                            ),
+                                                        ),
+                                                        Positioned(
+                                                            left: 191,
+                                                            top: 0,
+                                                            child: Container(
+                                                                width: 28,
+                                                                height: 28,
+                                                                decoration: BoxDecoration(
+                                                                    image: DecorationImage(
+                                                                        image: NetworkImage("https://via.placeholder.com/28x28"),
+                                                                        fit: BoxFit.contain,
+                                                                    ),
+                                                                ),
+                                                            ),
+                                                        ),
+                                                    ],
+                                                ),
+                                            ),
+                                        ),
+                                    ],
+                                ),
+                            ),
+                        ],
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 0,
+                top: 85,
+                child: SizedBox(
+                    width: 357,
+                    height: 140,
+                    child: Text.rich(
+                        TextSpan(
+                            children: [
+                                TextSpan(
+                                    text: 'Don’t ',
+                                    style: TextStyle(
+                                        color: Colors.black,
+                                        fontSize: 60,
+                                        fontFamily: 'Sansation',
+                                        fontWeight: FontWeight.w400,
+                                    ),
+                                ),
+                                TextSpan(
+                                    text: 'worry\nTake',
+                                    style: TextStyle(
+                                        color: Colors.black,
+                                        fontSize: 48,
+                                        fontFamily: 'Sansation',
+                                        fontWeight: FontWeight.w400,
+                                    ),
+                                ),
+                                TextSpan(
+                                    text: ' action',
+                                    style: TextStyle(
+                                        color: Colors.black,
+                                        fontSize: 60,
+                                        fontFamily: 'Sansation',
+                                        fontWeight: FontWeight.w400,
+                                    ),
+                                ),
+                            ],
+                        ),
+                        textAlign: TextAlign.center,
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 17,
+                top: 7,
+                child: Container(
+                    width: 121,
+                    height: 85,
+                    decoration: BoxDecoration(
+                        image: DecorationImage(
+                            image: NetworkImage("https://via.placeholder.com/121x85"),
+                            fit: BoxFit.fill,
+                        ),
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 294,
+                top: 20,
+                child: Container(
+                    width: 40,
+                    height: 55,
+                    child: Stack(
+                        children: [
+                            Positioned(
+                                left: 0,
+                                top: 5,
+                                child: Container(
+                                    width: 40,
+                                    height: 40,
+                                    decoration: ShapeDecoration(
+                                        color: Color(0x7F0056FF),
+                                        shape: OvalBorder(
+                                            side: BorderSide(width: 2, color: Color(0xFF00FFA3)),
+                                        ),
+                                    ),
+                                ),
+                            ),
+                            Positioned(
+                                left: 4,
+                                top: 0,
+                                child: Container(
+                                    width: 32,
+                                    height: 55,
+                                    decoration: BoxDecoration(
+                                        image: DecorationImage(
+                                            image: NetworkImage("https://via.placeholder.com/32x55"),
+                                            fit: BoxFit.contain,
+                                        ),
+                                    ),
+                                ),
+                            ),
+                        ],
+                    ),
+                ),
+            ),
+        ],
+    ),
+)
